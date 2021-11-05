@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 24.5%;
+    margin-right: 20%;
+}
+.logo img {
+    width: 5%;
+    height: 100%;
+    padding-right: 30px;
+}
+.logo h1{
+    color:black;
+    font-size: 55px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.work{
+    justify-content: flex-end;
+    display: flex;
+    margin-left: 70%;
+    position:absolute;
+    top: 130px;
+}
+.work h3{
+    padding-right: 20px;
+}
+.btn{
+    text-decoration: none;
+    color: black
+}
+
+a:hover{
+    color: blueviolet;
+
+}
+.p1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.p1 img{
+        width: 25%;
+    height: 100%;
+    margin: 20px;
+    transition: .3s;
+}
+.p2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.p2 img{
+    width: 25%;
+    height: 100%;
+    margin: 20px;
+}
+.p3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.p3 img{
+    width: 25%;
+    height: 100%;
+    margin: 20px;
+}
+    .p4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.p4 img{
+    width: 25%;
+    height: 100%;
+    margin: 20px;
+}.p5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.p5 img{
+    width: 25%;
+    height: 100%;
+    margin: 20px;
+}
+
+.p1 :not(img){
+    position:absolute;
+    left: 34.5%;
+    z-index: 1;
+    Color: #fff;
+    text-align:center;
+}
+.p1:hover img{
+    filter: blur(2px);
+}
+.p2:hover img{
+    filter: blur(2px);
+}.p3:hover img{
+    filter: blur(2px);
+}.p4:hover img{
+    filter: blur(2px);
+}.p5:hover img{
+    filter: blur(2px);
+}
